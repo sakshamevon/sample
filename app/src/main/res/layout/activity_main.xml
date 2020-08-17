@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+   <ImageView
+       android:layout_width="450dp"
+       android:layout_height="250dp"
+       android:src="@drawable/logo"
+       android:layout_centerVertical="true"
+       android:layout_centerInParent="true"
+       android:id="@+id/logo"
+       />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-122dp"
+        android:gravity="center_horizontal"
+        android:text="Evon Tech"
+        android:textAlignment="center"
+        android:textColor="#F7F3F3"
+        android:textSize="36sp" />
+
+</RelativeLayout>
